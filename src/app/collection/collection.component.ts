@@ -7,7 +7,7 @@ import { Subject } from 'rxjs/Subject';
 
 
 @Component({
-  selector: 'my-collection',
+  //selector: 'my-collection',
   templateUrl: './collection.component.html',
   styleUrls: ['./collection.component.css']
 })

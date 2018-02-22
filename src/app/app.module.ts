@@ -14,6 +14,7 @@ import { RatingCategoryPipe } from './pipes/rating-category.pipe';
 import { RatingComponent } from './rating/rating.component';
 import { AboutComponent } from './about/about.component';
 import { HttpModule } from '@angular/http';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HttpModule } from '@angular/http';
     CollectionComponent,
     RatingCategoryPipe,
     RatingComponent,
-    AboutComponent
+    AboutComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
