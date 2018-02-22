@@ -15,6 +15,7 @@ import { RatingComponent } from './rating/rating.component';
 import { AboutComponent } from './about/about.component';
 import { HttpModule } from '@angular/http';
 import { TabsComponent } from './tabs/tabs.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { TabsComponent } from './tabs/tabs.component';
     RatingCategoryPipe,
     RatingComponent,
     AboutComponent,
-    TabsComponent
+    TabsComponent,
+    BookDetailComponent
   ],
   imports: [
     BrowserModule,
